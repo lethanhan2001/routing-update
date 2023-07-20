@@ -1,9 +1,8 @@
 import { Profess } from "../../types";
-import Facebook from "../../images/Facebook.png";
-import Twitter from "../../images/Twitter (1).png";
-import Instagram from "../../images/Instagram.png";
+
 import styled from "styled-components";
 import tw from "twin.macro";
+import { Facebook, Instagram, Twitter } from "../../data";
 const BoxItem = styled.div`
   ${tw`
   w-[270px] h-[458px] bg-white shadow-2xl rounded-[42px] px-[5px] text-center

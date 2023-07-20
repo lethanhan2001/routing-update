@@ -2,8 +2,8 @@ import React from "react";
 import { Services2 } from "../../types";
 import styled from "styled-components";
 import tw from "twin.macro";
-import btnRight from "../../images/serviceImg/angle-double-right.png";
 import { breakpoints } from "../../data/breakpoints";
+import { btnRight } from "../../data";
 interface ItemSr {
   item: Services2;
 }

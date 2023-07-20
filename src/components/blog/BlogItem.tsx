@@ -2,8 +2,8 @@ import React from "react";
 import { Blog } from "../../types";
 import { styled } from "styled-components";
 import tw from "twin.macro";
-import Caret from "../../images/blogImg/caret-right.png";
 import { breakpoints } from "../../data/breakpoints";
+import { Caret } from "../../data";
 
 interface ItemBlog {
   item: Blog;

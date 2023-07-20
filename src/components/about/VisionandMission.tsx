@@ -1,9 +1,9 @@
 import React from "react";
-import Vision1 from "../../images/aboutImg/vision1.png";
-import Vision2 from "../../images/aboutImg/vision2.png";
+
 import styled from "styled-components";
 import tw from "twin.macro";
 import { breakpoints } from "../../data/breakpoints";
+import { Vision1, Vision2 } from "../../data";
 
 const Container = styled.div`
   ${tw`

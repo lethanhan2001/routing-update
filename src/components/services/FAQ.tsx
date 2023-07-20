@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import AngleBg from "../../images/serviceImg/angle-up.png";
-import AngleDownBg from "../../images/serviceImg/angle-down.png";
-import bgQuestion from "../../images/serviceImg/faq.png";
+
 import { breakpoints } from "../../data/breakpoints";
+import { AngleBg, AngleDownBg, bgQuestion } from "../../data";
 const Title = styled.h1`
   ${tw`
   text-4xl font-semibold text-main text-center mt-[120px] tracking-[.7px] ml-4

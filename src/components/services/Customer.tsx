@@ -1,10 +1,10 @@
 import React from "react";
 import CustomBg from "../customBg";
-import CustomerBg from "../../images/serviceImg/customer.png";
 import bgPlay from "../../images/serviceImg/Play Button.png";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { breakpoints } from "../../data/breakpoints";
+import { CustomerBgs } from "../../data";
 
 const Head = styled.div`
   ${tw`
@@ -64,7 +64,7 @@ const Customer: React.FC = () => {
   return (
     <>
       <Head>
-        <CustomBg fakeBg={CustomerBg}>
+        <CustomBg fakeBg={CustomerBgs}>
           <Box>
             <Left>
               <Text>Best responsibility and service for our customers</Text>

@@ -2,11 +2,7 @@ import React from "react";
 import Option from "../home/Option";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Logo1 from "../../images/aboutImg/LOGO1.png";
-import Logo2 from "../../images/aboutImg/LOGO2.png";
-import Logo3 from "../../images/aboutImg/LOGO3.png";
-import Logo4 from "../../images/aboutImg/LOGO4.png";
-import Logo5 from "../../images/aboutImg/LOGO5.png";
+import { Logo1, Logo2, Logo3, Logo4, Logo5 } from "../../data";
 
 const Head = styled.div`
   ${tw`

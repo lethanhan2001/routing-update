@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import bgWhite from "../../images/aboutImg/white.png";
-import bgPlay from "../../images/Play_button.png";
+
 import { breakpoints } from "../../data/breakpoints";
+import { bgPlay, bgWhite } from "../../data";
 const AboutContainer = styled.div`
   ${tw`
    mx-[5%]

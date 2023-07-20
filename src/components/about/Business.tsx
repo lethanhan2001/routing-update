@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import BgFace from "../../images/aboutImg/theface.png";
 
 import { breakpoints } from "../../data/breakpoints";
 import CustomBg from "../customBg";
+import { BgFace } from "../../data";
 
 const Box = styled.div`
   ${tw`

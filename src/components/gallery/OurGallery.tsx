@@ -1,16 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Img1 from "../../images/galleryImg/img1.png";
-import Img2 from "../../images/galleryImg/img2.png";
-import Img3 from "../../images/galleryImg/img3.png";
-import Img4 from "../../images/galleryImg/img4.png";
-import Img5 from "../../images/galleryImg/img5.png";
-import Img6 from "../../images/galleryImg/img6.png";
-import Img7 from "../../images/galleryImg/img7.png";
-import Img8 from "../../images/galleryImg/img8.png";
-import Img9 from "../../images/galleryImg/img9.png";
+
 import { breakpoints } from "../../data/breakpoints";
+import {
+  Img1,
+  Img2,
+  Img3,
+  Img4,
+  Img5,
+  Img6,
+  Img7,
+  Img8,
+  Img9,
+} from "../../data";
 const Container = styled.div`
   ${tw`
     flex justify-evenly  mx-[10.5%] mt-24 tracking-[0.3px]

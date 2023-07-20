@@ -26,10 +26,43 @@ import LK from "../images/blogImg/lk.png";
 import recent3Img from "../images/blogImg/blog3.png";
 import Address from "../images/contactImg/address.png";
 import Mail from "../images/contactImg/mail.png";
-
+import Violet from "../images/aboutImg/violet.png";
+import TourBg from "../images/galleryImg/videotour.png";
+import BlogBg from "../images/blogImg/blog.png";
 import Phone from "../images/contactImg/phone.png";
-
+import bgWhite from "../images/aboutImg/white.png";
+import bgPlay from "../images/Play_button.png";
+import BgFace from "../images/aboutImg/theface.png";
+import Logo1 from "../images/aboutImg/LOGO1.png";
+import Logo2 from "../images/aboutImg/LOGO2.png";
+import Logo3 from "../images/aboutImg/LOGO3.png";
+import Logo4 from "../images/aboutImg/LOGO4.png";
+import Logo5 from "../images/aboutImg/LOGO5.png";
+import Vision1 from "../images/aboutImg/vision1.png";
+import Vision2 from "../images/aboutImg/vision2.png";
+import Img1 from "../images/galleryImg/img1.png";
+import Img2 from "../images/galleryImg/img2.png";
+import Img3 from "../images/galleryImg/img3.png";
+import Img4 from "../images/galleryImg/img4.png";
+import Img5 from "../images/galleryImg/img5.png";
+import Img6 from "../images/galleryImg/img6.png";
+import Img7 from "../images/galleryImg/img7.png";
+import Img8 from "../images/galleryImg/img8.png";
+import Img9 from "../images/galleryImg/img9.png";
 import { Profess } from "../types";
+import MapBg from "../../images/contactImg/map.png";
+import PlayBtn from "../images/Play_button.png";
+import HomeBg from "../images/home.png";
+import Caret from "../images/blogImg/caret-right.png";
+import Facebook from "../../images/Facebook.png";
+import Twitter from "../../images/Twitter (1).png";
+import Instagram from "../../images/Instagram.png";
+import CustomerBgs from "../../images/serviceImg/customer.png";
+import AngleBg from "../../images/serviceImg/angle-up.png";
+import AngleDownBg from "../../images/serviceImg/angle-down.png";
+import bgQuestion from "../../images/serviceImg/faq.png";
+import btnRight from "../../images/serviceImg/angle-double-right.png";
+
 export const servicesData: Services[] = [
   {
     id: 1,
@@ -191,4 +224,38 @@ export {
   LK,
   IG,
   TW,
+  Violet,
+  TourBg,
+  BlogBg,
+  bgPlay,
+  bgWhite,
+  BgFace,
+  Logo1,
+  Logo2,
+  Logo3,
+  Logo4,
+  Logo5,
+  Vision1,
+  Vision2,
+  Caret,
+  MapBg,
+  Img1,
+  Img2,
+  Img3,
+  Img4,
+  Img5,
+  Img6,
+  Img7,
+  Img8,
+  Img9,
+  PlayBtn,
+  HomeBg,
+  Facebook,
+  Instagram,
+  Twitter,
+  CustomerBgs,
+  AngleBg,
+  AngleDownBg,
+  bgQuestion,
+  btnRight,
 };

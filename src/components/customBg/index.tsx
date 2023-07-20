@@ -1,9 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import Violet from "../../images/aboutImg/violet.png";
-import TourBg from "../../images/galleryImg/videotour.png";
-import BlogBg from "../../images/blogImg/blog.png";
+import { BlogBg, TourBg, Violet } from "../../data";
+
 const BgSpa = styled.div`
   ${tw`
    w-full mt-[153px] h-[529px]

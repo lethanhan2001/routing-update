@@ -1,9 +1,9 @@
 import useInnerWidth from "../../hooks/useInnerWidth";
 import { breakpoints } from "../../data/breakpoints";
-import PlayBtn from "../../images/Play_button.png";
-import HomeBg from "../../images/home.png";
+
 import styled from "styled-components";
 import tw from "twin.macro";
+import { HomeBg, PlayBtn } from "../../data";
 const AboutMain = styled("div")`
   ${tw`
  flex justify-center items-center flex-nowrap flex-1 my-[100px] ml-[10%] mr-[8%]

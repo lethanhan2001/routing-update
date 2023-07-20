@@ -2,8 +2,8 @@ import React from "react";
 import ContactHome from "../home/ContactHome";
 import { styled } from "styled-components";
 import tw from "twin.macro";
-import MapBg from "../../images/contactImg/map.png";
 import { breakpoints } from "../../data/breakpoints";
+import { MapBg } from "../../data";
 const HeaderContact = styled.div`
   ${tw`
   mx-[10.5%]
